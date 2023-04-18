@@ -86,7 +86,7 @@ body{
 }
 #diagnostico_p1::first-letter, #diagnostico_p2::first-letter,  #diagnostico_p3::first-letter{
     font-size: 50px;
-    color:#17a2b8;
+    color:crimson;
 }
 #diagnostico_tipos_autismo{
     display:flex;
@@ -98,17 +98,17 @@ body{
 .tipos_autismo_banner{
     width: 95%;
     height: auto;
-    border:5px solid lightblue;
-    padding: 0;
+    border:5px solid lightgray;
+    padding: 10px;
     margin:40px;
+}
+.tipos_autismo_banner:hover{
+    border-color: #17a2b8;
 }
 .titulo2_tipos_autismo_banner{
     font-family:'PT Sans';
     font-size: 40px;
-    color:lightblue;
-}
-.tipos_autismo_banner:hover{
-    border-color: lightblue;
+    color:#17a2b8;
 }
 
 #diagnostico_sintomas_do_autismo{
@@ -138,7 +138,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 350px;
-    height: 400px;
+    height: 500px;
     margin:30px;
     border: 5px solid lightgray;
 }
@@ -172,7 +172,7 @@ body{
 }
 .aceitacao_texto::first-letter{
     font-size: 50px;
-    color:#17a2b8;
+    color: orangered;
 }
 
 
@@ -219,7 +219,7 @@ body{
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 10px solid black;
+    border-top: 10px solid darkmagenta;
     cursor: pointer;
     transition: transform 0.5s ease;
     margin: 20px;
@@ -253,7 +253,7 @@ body{
 }
 .pesquisa_desenvolvimento_texto::first-letter{
     font-size: 50px;
-    color:#17a2b8;
+    color:darkred;
 }
 
 #campanha{
@@ -267,7 +267,7 @@ body{
 }
 #campanha_instagram::first-letter{
     font-size: 50px;
-
+    color:darkblue;
 }
 /*RODAPE -----------------------------------------------------------------------------------------------------*/
 #rodape{
@@ -335,6 +335,7 @@ body{
         margin: 10px;
         font-family: 'PT Sans';
         cursor: pointer;
+        font-size: 19px;
       }
       .op_Nshow{
         display:none;
@@ -347,9 +348,28 @@ body{
         border:none;
         transition: left 0.5s linear;
       }
-      .nav_item:hover{
+      #nav_home:hover{
         color:#17a2b8;
       }
+      #nav_sobre_inclusao:hover{
+        color:#fecd23;
+      }
+      #nav_diagnostico:hover{
+        color:crimson;
+      }
+      #nav_aceitacao:hover{
+        color: orangered;
+      }
+      #nav_mitos:hover{
+        color:darkmagenta;
+      }
+      #nav_pesquisa:hover{
+        color:darkred;
+      }
+      #nav_campanha:hover{
+        color:darkblue;
+      }
+
       .menu_divisor{
         width:100%;
     }
@@ -401,9 +421,29 @@ body{
         font-size: 20px;
         font-family: 'PT Sans';
     }
-    .nav_item:hover{
-        color: #17a2b8;
-    }
+
+    #nav_home:hover{
+        color:#17a2b8;
+      }
+      #nav_sobre_inclusao:hover{
+        color:#fecd23;
+      }
+      #nav_diagnostico:hover{
+        color:crimson;
+      }
+      #nav_aceitacao:hover{
+        color: orangered;
+      }
+      #nav_mitos:hover{
+        color:darkmagenta;
+      }
+      #nav_pesquisa:hover{
+        color:darkred;
+      }
+      #nav_campanha:hover{
+        color:darkblue;
+      }
+
     #logo{
         display:flex; 
         flex-direction: row;
